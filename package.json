@@ -1,6 +1,6 @@
 {
   "name": "vtes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Salman",
     "url": "https://github.com/salmanpripender"
@@ -11,12 +11,12 @@
     "url": "https://github.com/salmanpripender/vtes.git"
   },
   "description": "vtes alat penguji versi dan melakukan commit otomatis ke Git.",
-  "main": "./lib",
+  "main": "./lib/vtes.js",
   "bin": {
-    "vtes": "./bin"
+    "vtes": "./bin/vtes.js"
   },
   "scripts": {
-    "vtes": "node ./lib"
+    "vtes": "node ./lib/vtes.js"
   },
   "engines": {
     "node": ">=10"
